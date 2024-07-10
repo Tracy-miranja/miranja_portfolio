@@ -1,5 +1,9 @@
 const Tech = () => {
-  <div>Tech</div>;
+  return (
+    <>
+      <div>Tech</div>
+    </>
+  );
 };
 
 export default Tech;

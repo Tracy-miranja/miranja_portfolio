@@ -21,6 +21,15 @@ export const theme = {
     backgroundImage: {
       "hero-pattern": "url('/src/assets/herobg.png')",
     },
+    keyframes: {
+      "underline-grow": {
+        "0%": { width: "0%" },
+        "100%": { width: "100%" },
+      },
+    },
+    animation: {
+      "underline-grow": "underline-grow 0.3s ease-in-out forwards",
+    },
   },
 };
 export const plugins = [];
