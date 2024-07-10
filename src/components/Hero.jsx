@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "./style";
-import Computers from "./canvas/Computers";
+import ComputersCanvas from "./canvas/Computers";
 
 const Hero = () => {
   return (
@@ -16,14 +16,14 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText}`}>
-            Hello, I'm <span className="text-[#915eff]">Tracy Miranja</span>
+            Hello, I'm <span className="text-[#915eff]">Tracy</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100`}>
             Welcome to my Portfolio
           </p>
         </div>
       </div>
-      <Computers />
+      <ComputersCanvas />
     </section>
   );
 };
