@@ -2,7 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "./style";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close } from "../assets";
+import logo from "../assets/logofrontend.png";
 import "./app.css";
 
 const Navbar = () => {
@@ -21,7 +22,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
           <p className="font-bold cursor-pointer">
             Tracy <span className="text-red-500">Miranja</span>
           </p>
