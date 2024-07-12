@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { motion } from "framer-motion";
-import { styles } from "./style";
+import styles from "./style";
 import ComputersCanvas from "./canvas/Computers";
 // import { repeat } from "maath/dist/declarations/src/misc";
 
@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText}`}>
-            Hello, I'm <span className="text-[#915eff]">Tracy</span>
+            Hello, I am <span className="text-[#915eff]">Tracy</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100`}>
             Welcome to my Portfolio

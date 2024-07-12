@@ -1,9 +1,10 @@
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import { styles } from "./style";
+import styles from "./style";
 import { services } from "./constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { max } from "three/examples/jsm/nodes/Nodes.js";
+import SectionWrapper from "./hoc/SectionWrapper";
+// import { max } from "three/examples/jsm/nodes/Nodes.js";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -34,7 +35,7 @@ const About = () => {
       </motion.dev>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-center"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
       >
         Full-stack developer and graphic designer with a unique blend of
         creative and technical acumen, ensuring the delivery of high-quality
@@ -53,4 +54,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SectionWrapper(About, "about");
