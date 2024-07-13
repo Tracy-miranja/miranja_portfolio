@@ -1,5 +1,6 @@
-const Indexj = () => {
-  <div>Earth</div>;
-};
+import EarthCanvas from "./Earth";
+import BallCanvas from "./Ball";
+import ComputersCanvas from "./Computers";
+import StarsCanvas from "./Stars";
 
-export default Indexj;
+export default { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas };

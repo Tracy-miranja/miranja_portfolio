@@ -40,7 +40,7 @@ export const navLinks = [
   },
 ];
 
-const services = [
+export const services = [
   {
     title: "Web Developer",
     icon: web,
@@ -59,7 +59,7 @@ const services = [
   },
 ];
 
-const technologies = [
+export const technologies = [
   {
     name: "HTML 5",
     icon: html,
@@ -169,7 +169,7 @@ export const experiences = [
   },
 ];
 
-const testimonials = [
+export const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -196,7 +196,7 @@ const testimonials = [
   },
 ];
 
-const projects = [
+export const projects = [
   {
     name: "Car Rent",
     description:
@@ -262,4 +262,4 @@ const projects = [
   },
 ];
 
-export default { services, technologies, testimonials, projects };
+export default technologies;
