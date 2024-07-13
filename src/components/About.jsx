@@ -30,12 +30,12 @@ const About = () => {
   return (
     <>
       <motion.dev variants={textVariant}>
-        <p className={styles.sectionSubText}>Intriduction</p>
+        <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.dev>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
+        className="mt-4 text-secondary text-[17px] text-center leading-[30px] "
       >
         Full-stack developer and graphic designer with a unique blend of
         creative and technical acumen, ensuring the delivery of high-quality
