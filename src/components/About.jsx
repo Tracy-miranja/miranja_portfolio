@@ -37,14 +37,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] text-center leading-[30px] "
       >
-        Full-stack developer and graphic designer specialised in front end
-        development, with a unique blend of creative and technical acumen,
-        ensuring the delivery of high-quality work for company success. My
-        preferred stack includes JavaScript, React, and Ruby. Proficient in
-        effective time management, remote collaboration, creative
-        problem-solving, and clear communication through visuals and writing. I
-        am seeking roles in companies that prioritize innovation, collaboration,
-        and staying at the forefront of web
+        As a Full-stack developer and graphic designer, I possess a distinctive
+        combination of creative and technical skills that enable me to deliver
+        high-quality work for company success. My preferred stack is JavaScript,
+        React, mangodb,nodejs,postgresql, and Ruby.Tools & Methods like Git,
+        GitHub, Heroku, Netlify,Mobile/Responsive Development, RSpec, TDD.
+        Skilled in effective time management, collaborating remotely, Creative
+        problem solving, Debugging, Testing, API's, and communicating clearly
+        through visuals and writing.I am seeking roles at companies that value
+        innovation, collaboration, and staying ahead of the curve in web
+        development
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
