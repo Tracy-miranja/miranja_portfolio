@@ -20,7 +20,10 @@ const Hero = () => {
             Hello, I am <span className="text-[#915eff]">Tracy</span>
           </h1>
           <p className="text - white - 100 font-semibold">
-            Front-end developer and a grphic designer
+            Full-stuck developer and a graphic designer
+          </p>
+          <p className="text - white - 100 font-semibold">
+            specialised in Front-end development
           </p>
         </div>
       </div>

@@ -1,10 +1,9 @@
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import styles from "./style";
-import { services } from "./constants";
+import { services } from "./Service";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "./hoc/SectionWrapper";
-// import { max } from "three/examples/jsm/nodes/Nodes.js";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -26,6 +25,7 @@ const ServiceCard = ({ index, title, icon }) => {
     </Tilt>
   );
 };
+
 const About = () => {
   return (
     <>
@@ -37,13 +37,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] text-center leading-[30px] "
       >
-        Full-stack developer and graphic designer with a unique blend of
-        creative and technical acumen, ensuring the delivery of high-quality
-        work for company success. My preferred stack includes JavaScript, React,
-        and Ruby. Proficient in effective time management, remote collaboration,
-        creative problem-solving, and clear communication through visuals and
-        writing. I am seeking roles in companies that prioritize innovation,
-        collaboration, and staying at the forefront of web
+        Full-stack developer and graphic designer specialised in front end
+        development, with a unique blend of creative and technical acumen,
+        ensuring the delivery of high-quality work for company success. My
+        preferred stack includes JavaScript, React, and Ruby. Proficient in
+        effective time management, remote collaboration, creative
+        problem-solving, and clear communication through visuals and writing. I
+        am seeking roles in companies that prioritize innovation, collaboration,
+        and staying at the forefront of web
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

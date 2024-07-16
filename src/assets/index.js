@@ -29,8 +29,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import essica from "./essica.jpeg";
+import ecomerce from "./ecomerce.jpeg";
+import todo from "./todo.jpg";
 
 export {
+  todo,
+  essica,
+  ecomerce,
   logo,
   backend,
   creator,
